@@ -1,7 +1,6 @@
 var mosca = require('mosca');
 
 var dbmqtt = {
-  //using ascoltatore
   type: 'mongo',
   url: 'mongodb://localhost:27017/mqtt',
   pubsubCollection: 'mode-mqtt',
