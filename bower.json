@@ -1,0 +1,8 @@
+{
+  "name": "node-mqtt",
+  "description": "paho directive for angular",
+  "main": "mqtt_broker.js",
+  "dependencies": {
+    "paho-mqtt-js": "^1.0.1"
+  }
+}

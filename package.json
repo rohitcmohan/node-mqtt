@@ -1,10 +1,11 @@
 {
   "name": "node-mqtt",
   "version": "0.0.1",
-  "main": "server.js",
+  "main": "mqtt_broker.js",
   "dependencies": {
     "mosca": "^2.2.0",
-    "mqtt": "^2.2.1"
+    "mqtt": "^2.2.1",
+    "express": "^4.13.4"
   },
   "scripts": {
     "start": "node server.js"
