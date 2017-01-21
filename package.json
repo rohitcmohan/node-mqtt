@@ -8,6 +8,6 @@
     "express": "^4.13.4"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node mqtt_broker.js"
   }
 }

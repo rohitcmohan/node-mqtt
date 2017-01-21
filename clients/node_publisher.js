@@ -5,7 +5,7 @@ client = mqtt.connect();
 client.subscribe('mqttest');
 
 console.log('Client publishing.. ');
-message = "Hi Chaitra"
+message = "Hi"
 
 client.publish('mqttest', message);
 var i = 0;
